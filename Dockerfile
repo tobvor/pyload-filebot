@@ -1,4 +1,4 @@
-FROM writl/pyload:latest
+FROM writl/pyload
 MAINTAINER Tobias Vornholt "t.vornholt@mailbox.org"
 
 # apt-https support
