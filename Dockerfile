@@ -2,7 +2,7 @@ FROM writl/pyload
 
 MAINTAINER Tobias Vornholt "t.vornholt@mailbox.org"
 
-# download filebot binary
+# download last free filebot version (before license terms have changed)
 RUN curl -L -O https://downloads.sourceforge.net/project/filebot/filebot/FileBot_4.7.9/filebot_4.7.9_amd64.deb
 
 # verify checksum and install filebot 
